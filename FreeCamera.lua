@@ -1,3 +1,5 @@
+--left_shift+p
+
 function sandbox(var,func)
 local env = getfenv(func)
 local newenv = setmetatable({},{
@@ -502,4 +504,4 @@ pcall(v)
 end)
 end
 
---Lua Script By DEVIX7
+--DEVIX7
