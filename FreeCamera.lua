@@ -1,5 +1,4 @@
---left_shift+p
-
+--left shift + p on/off
 function sandbox(var,func)
 local env = getfenv(func)
 local newenv = setmetatable({},{
@@ -503,5 +502,3 @@ spawn(function()
 pcall(v)
 end)
 end
-
---DEVIX7
